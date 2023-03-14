@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+#main_menu{
+    height: 60px;
+   /* background-color: goldenrod;*/
+}
+.clr{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* navbar part start */
+#main_menu{
+    height: 149px;
+   /* background-color:goldenrod; */
+}
+#main_menu .logo{
+    width: 26%;
+    
+    float: left;
+}
+#main_menu .menu{
+    
+    width: 60%;
+    
+    float: left;
+}
+#main_menu .menu ul{
+    text-align: right;
+}
+
+#main_menu .menu ul li{
+    display: inline-block;
+    line-height: 150px;
+}
+#main_menu .menu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    margin-left: 40px;
+    transition: .4s;
+}
+#main_menu .menu ul li a :hover{
+    color: black;
+    
+}
+
+/*navbar part end */
+
+/* banner part start */
+#banner{
+    height: 500px;
+    background: url(../image/7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+#banner h1{
+    text-align: left;
+    color: goldenrod;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+#banner p{
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 0;
+}
+#banner a{
+    color:blue;
+    font: size 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* banner part end */
+/* registraion part start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.registraion{
+    width: 500px;
+    margin:10px 50px;
+    background-color: orangered;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+
+}
+label{
+    display:block;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+border: 2px solid transparent;
+}
+.gender label{
+    display: inline-block;
+}
+.gender input{
+    display: inline-block;
+    width: auto;
+    margin-right: 30px;
+}
+select{
+    width: 100%;
+}
+.check label{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.check input{
+    width: auto;
+}
+.btn{
+    margin-top: 20px;
+}
+button{
+    width: 40%;
+    margin: o 10px;
+    padding: 5px;
+    background-color: #fff;
+    color: orange;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color:1px solid transparent;
+}
+button :hover{
+    background-color: black;
+    border: 1px solid white;
+}
+textarea{
+    resize: none;
+}
+#one_p{
+    background-color: #9c27b0;
+    width:100%;
+
+
+}
+
+
+/* registraion part end */
+
+
+
+/*js part start */
+.main{
+    width: auto;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    background: url(../image/6.jpg);
+    
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logoo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-bottom: 80px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.informatin{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 30%;
+    right: 0;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-right: 30%;
+}
+/* js part end */
+
+
+/*brazil flag start */
+.verde{
+    width: 200px;
+    height: 140px;
+    background: #00A859;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+}
+
+
+/*brazil flag end */
